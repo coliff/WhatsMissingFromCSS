@@ -1,0 +1,51 @@
+
+.Share__Options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      path {
+        fill: $text-color;
+      }
+    }
+    &:hover {
+      svg {
+        path {
+          fill: $hover-color;
+        }
+      }
+    }
+  }
+}
+
+.whatsmissing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsmissing-quote-wrapper{
+  background: $bg-color-light;
+  padding: $spacing*2;
+  border-radius: 20px;
+  margin-bottom: $spacing;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  width: 100%;
+  cursor: pointer;
+}
+.whatsmissing-quote{
+  margin:0;
+  padding:0;
+  pointer-events: none;
+}
+.whatsmissing-reload{
+
+}
