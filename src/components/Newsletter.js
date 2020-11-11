@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import ReactGA from 'react-ga'
 import fetch from 'isomorphic-fetch'
 
 const postUrl =
@@ -32,10 +31,6 @@ export default class Newsletter extends Component {
         this.setState({ loading: true })
 
         e.preventDefault()
-        ReactGA.event({
-            category: 'Subscribe',
-            action: `Newsletter subscribe`
-        })
         const response = await fetch(postUrl, {
             method: 'POST',
             body: `field_0=${encodeURIComponent(email)}`,

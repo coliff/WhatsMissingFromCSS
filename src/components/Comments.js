@@ -1,6 +1,5 @@
 import _ from 'lodash'
 import React from 'react'
-import ReactGA from 'react-ga'
 import comments from '../../data/comments.yaml'
 
 // const commentsRandom = _.shuffle(comments)
@@ -18,10 +17,6 @@ export default class Comments extends React.Component {
         const newIndex = this.state.index >= comments.length - 1 ? 0 : this.state.index + 1
         this.setState({
             index: newIndex
-        })
-        ReactGA.event({
-            category: 'Clicks',
-            action: 'Refresh comment'
         })
     }
 
