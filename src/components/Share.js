@@ -10,11 +10,11 @@ const trackShare = (platform, section) => {
   }
 }
 
-const Twitter = ({ text }) => {
+export const Twitter = ({ text }) => {
   return (
     <a
       onClick={trackShare("Twitter", "Home")}
-      className="resp-sharing-button__link button"
+      className="resp-sharing-button__link button twitter"
       href={`https://twitter.com/intent/tweet/?text=${encodeURIComponent(
         text
       )}`}
@@ -41,7 +41,7 @@ const Twitter = ({ text }) => {
   )
 }
 
-const Facebook = ({ link }) => {
+export const Facebook = ({ link }) => {
   return (
     <a
       onClick={trackShare("Facebook", "Home")}

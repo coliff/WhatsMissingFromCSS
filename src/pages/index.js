@@ -15,7 +15,7 @@ const Index = () => (
       <Logo />
       <Intro />
       <WhatsMissing />
-      <Share />
+      {/* <Share /> */}
       <Newsletter />
       {/* <About /> */}
       <Footer />
