@@ -1,6 +1,11 @@
 .Wrapper {
   padding: $spacing * 2 $spacing;
 }
+.layout-wide {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
 .layout-narrow {
   margin: 0 auto;
   max-width: 600px;

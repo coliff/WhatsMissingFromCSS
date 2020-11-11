@@ -72,7 +72,7 @@ export const Facebook = ({ link }) => {
   )
 }
 
-const Email = ({ subject, body }) => {
+export const Email = ({ subject, body }) => {
   return (
     <a
       onClick={trackShare("Email", "Home")}

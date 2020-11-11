@@ -1,0 +1,10 @@
+.Logo__Container{
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  margin-bottom: $spacing;
+  svg{
+    width: 100%;
+    max-width: 300px;
+  }
+}

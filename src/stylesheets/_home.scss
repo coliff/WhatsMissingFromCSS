@@ -1,3 +1,9 @@
+.top{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: $spacing*2;
+}
+
 .Share__Options {
   display: flex;
   align-items: center;
@@ -69,4 +75,10 @@
   text-align: center;
 }
 .whatsmissing-reload {
+}
+
+.Intro{
+  p:first-child{
+    font-size: 1.5rem;
+  }
 }

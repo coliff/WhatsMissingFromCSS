@@ -30,8 +30,7 @@ const WhatsMissing = () => {
         </div>
       </div>
       <button
-        className="whatsmissing-reload"
-        className="button"
+        className="whatsmissing-reload button"
         onClick={reload}
       >
         Reload

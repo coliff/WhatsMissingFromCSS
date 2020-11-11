@@ -4,10 +4,10 @@ import "../stylesheets/screen.scss"
 
 export default class Layout extends React.Component {
   render() {
-    const description = "The annual survey about the latest trends in CSS."
-    const url = "https://stateofcss.com"
-    const image = "https://stateofcss.com/images/stateofcss_socialmedia.png"
-    const title = "The State of CSS Survey"
+    const description = "What do people think is currently missing from CSS?"
+    const url = "https://whatsmissingfromcss.com"
+    const image = "https://stateofcss.com/images/whatsmissing.png"
+    const title = "What's Missing From CSS?"
     const meta = [
       { charset: "utf-8" },
       { name: "description", content: description },
