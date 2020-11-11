@@ -1,7 +1,9 @@
-.top{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: $spacing*2;
+.top {
+  @include medium-large {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: $spacing * 2;
+  }
 }
 
 .Share__Options {
@@ -36,9 +38,9 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-    .twitter{
+    .twitter {
       border: none;
-      &::before{
+      &::before {
         content: none;
       }
     }
@@ -77,8 +79,8 @@
 .whatsmissing-reload {
 }
 
-.Intro{
-  p:first-child{
+.Intro {
+  p:first-child {
     font-size: 1.5rem;
   }
 }
